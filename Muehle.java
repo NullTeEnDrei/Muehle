@@ -32,7 +32,7 @@ public class Muehle {
 	    int y = (d.height - f.getSize().height) / 2;
 	    f.setLocation(x, y);
 	    f.setResizable(false);
-	    JLabel backImgPanel = new JLabel(new ImageIcon("Muehle.jpg"));
+	    JLabel backImgPanel = new JLabel(new ImageIcon("img/muehlefeld.jpg"));
 	    backImgPanel.setLayout(null);
         backImgPanel.setOpaque(false);
         f.getContentPane().add(backImgPanel);
