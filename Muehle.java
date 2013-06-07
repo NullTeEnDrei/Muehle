@@ -1,12 +1,12 @@
 import java.awt.*;
-import java.awt.event.*;
-import java.awt.image.*;
+//import java.awt.event.*;
+//import java.awt.image.*;
 import java.awt.Toolkit;
-import javax.imageio.ImageIO;
+//import javax.imageio.ImageIO;
 import javax.swing.*;
-import javax.swing.event.*;
-import java.io.*;
-import javax.imageio.*;
+//import javax.swing.event.*;
+//import java.io.*;
+//import javax.imageio.*;
 
 /**
  * 
@@ -24,9 +24,9 @@ public class Muehle {
 			int frameWidth, frameHeight;
 			int frameX, frameY;
 			JLabel backImgPanel;
-			JButton feld01, feld02, feld03, feld04, feld05, feld06, feld07, feld08;
-			JButton feld11, feld12, feld13, feld14, feld15, feld16, feld17, feld18;
-			JButton feld21, feld22, feld23, feld24, feld25, feld26, feld27, feld28;
+//			JButton feld01, feld02, feld03, feld04, feld05, feld06, feld07, feld08;
+//			JButton feld11, feld12, feld13, feld14, feld15, feld16, feld17, feld18;
+//			JButton feld21, feld22, feld23, feld24, feld25, feld26, feld27, feld28;
 			
 		//Frame-initialisierung
 			f = new JFrame();	
@@ -45,8 +45,8 @@ public class Muehle {
 			backImgPanel.setLayout(null);
 			backImgPanel.setOpaque(false);
 			f.getContentPane().add(backImgPanel);
-			feld01 = new JButton();
-			feld01.setBounds(190, 190, 20, 20);
+//			feld01 = new JButton();
+//			feld01.setBounds(190, 190, 20, 20);
 			backImgPanel.setBounds(0,0,600,600);
 		// Components
 			
