@@ -46,7 +46,6 @@ public class Muehle {
 			backImgPanel.setOpaque(false);
 			f.getContentPane().add(backImgPanel);
 			feld01 = new JButton();
-			f.getContentPane().add(feld01);
 			feld01.setBounds(190, 190, 20, 20);
 			backImgPanel.setBounds(0,0,600,600);
 		// Components
